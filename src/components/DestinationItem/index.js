@@ -2,8 +2,8 @@
 import './index.css'
 
 const DestinationItem = props => {
-  const {userDestinationDetails} = props
-  const {name, imageUrl} = userDestinationDetails
+  const {DestinationDetails} = props
+  const {name, imageUrl} = DestinationDetails
 
   return (
     <li className="user-card-container">
