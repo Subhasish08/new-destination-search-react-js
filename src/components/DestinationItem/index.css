@@ -1,0 +1,34 @@
+/* Write your CSS here */
+
+.user-card-container {
+  list-style-type: none;
+  width: 235px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 32px;
+}
+
+.avatar {
+  height: 175px;
+  width: 235px;
+}
+
+.description {
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+.destination_list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  padding-top: 48px;
+}
